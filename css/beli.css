@@ -16,7 +16,7 @@
 .banner {
   background-size: cover;
   padding-top: 9%;
-  padding-bottom: 2%;
+  padding-bottom: 10%;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -45,7 +45,7 @@
     padding-top: 40px;
   }
   .banner {
-    padding-top: 290px;
+    padding-top: 100px;
   }
   .card {
     margin: 0 auto;
