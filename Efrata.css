@@ -1,0 +1,40 @@
+.bg-light {
+  background-color: rgb(133, 151, 63) !important;
+}
+.banner {
+  background: url(images/Efrata.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+.crop-img {
+  object-fit: cover;
+}
+@media screen and (max-width: 600px) {
+  .ms-3 {
+    width: 20px;
+    margin: 0 auto;
+    padding: 50px;
+    height: 10px !important;
+  }
+  .text-muted img {
+    padding: 5px;
+    float: left;
+  }
+  footer {
+    position: static;
+  }
+  header {
+    padding-top: 40px;
+  }
+  .banner {
+    padding-top: 290px;
+  }
+  .card {
+    margin: 0 auto;
+  }
+  footer {
+    margin: 0 auto;
+  }
+}
